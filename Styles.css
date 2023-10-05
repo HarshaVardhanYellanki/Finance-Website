@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+overflow-x: hidden;
+font-family: 'Arial', sans-serif;
+}
+
+
+
+ .number-box {
+            background-color: blue;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+/* CSS for the header band */
+.header-band {
+    background-color: rgba(173, 216, 230, 0.7);
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: left;
+}
+.header-band1 {
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    padding: 40px;
+    text-align: right;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS for the individual elements */
+.header-element {
+    display: inline;
+    margin: 0 100px;
+    color: blue;
+    font-weight: bold;
+
+}
+
+.header-element:hover {
+    text-decoration: underline;
+}
+
+/* CSS for the individual elements */
+.header-element1 {
+    display: inline;
+    margin: 0 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.header-element1:hover {
+	color: blue;
+}
+
+h1 {
+    font-size: 50px;
+font-family: 'Hind', sans-serif;
+}
+h2 {
+padding-left: 30px;
+font-size: 40px;
+font-family: 'Hind', sans-serif;
+margin-bottom: 20px;
+}
+
+p {
+color: blue;
+font-family: 'Hind', sans-serif;
+text-align: center ;
+}
+
+p1 {
+margin-top: 20px;
+padding-left: 30px;
+font-size: 20px;
+font-family: 'Hind', sans-serif;
+text-align: left ;
+}
+
+.p4 {
+text-align: center;
+color:black;
+}
+
+/* CSS for the picture (logo) */
+.picture {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    width: 150px;
+    height: auto;
+}
+/* CSS for the picture (image) */
+.picture1 {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 1515px;
+    height: 600px;
+}
+
+ /* CSS for the search button */
+        .search-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 20px; /* Match the border-radius of the search bar */
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+/* CSS for the header band2 */
+.header-band2 {
+    top: 40px;
+    left: 40px;
+    text-align: center;
+}
+
+/* CSS for the h4 element */
+h4 {
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+    color: blue;
+    margin-top: 0; /* Remove the top margin */
+}
+
+h6 {
+	margin-top: 40px; 
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+    color: blue;
+    text-align:center;
+}
+
+/* CSS for the search bar */
+.search-bar {
+    font-size: 15px; /* Increase the font size of the search input */
+    padding: 10px; /* Increase padding for better visibility */
+    width: 300px; /* Adjust the width as needed */
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    outline: none;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* CSS for the search button */
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Match the border-radius of the search bar */
+    padding: 15px 20px; /* Increase padding for better visibility */
+    cursor: pointer;
+}
+
+ .main-container {
+    margin: 500px auto 20px;
+    max-width: 1450px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox to arrange containers side by side */
+    justify-content: space-between; /* Add space between the containers */
+}
+
+.container {
+    width: 48%; /* Adjust the width as needed */
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; /* Make the table width 100% of its container */
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the first column elements in both tables */
+.container table tbody td:first-child {
+    color: blue;
+}
+
+/* Style for the third column elements in the second table */
+.container:last-child table tbody td:nth-child(3) {
+    padding: 5px 8px;
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+margin-right: 10px;
+}
+
+.main-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden; /* Hide horizontal and vertical overflow */
+}
+
+.container1 {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: calc(25% - 20px); /* Limit the width of each container */
+}
+
+.access-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.access-button:hover {
+    background-color: #004294;
+transform: translateZ(5px); 
+}
+
+/* CSS for the container */
+.main-container2 {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden; /* Hide horizontal and vertical overflow */
+}
+
+.container2 {
+    width: 100%; /* Full width for each container */
+    margin-bottom: 20px; /* Add space between containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px;
+    display: flex; /* Display text and image side by side */
+    align-items: center; /* Vertically center-align text and image */
+}
+
+/* CSS for text content */
+.text-content {
+    font-size: 18px;
+    margin-right: 20px; /* Add space between text and image */
+}
+
+/* CSS for image content */
+.image-content img {
+    width: 600px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.right-aligned-form {
+  text-align: right;
+  margin-bottom: 60px; /* Add some space below the form */
+}
+
+/* Rest of your existing CSS styles for .access-button, etc. */
+
+/* CSS for the specific form with the #contact-form id */
+#contact-form {
+    text-align: right; /* Align the form to the right */
+    margin-top: 20px; /* Add margin at the top */
+    /* Add any other styles specific to this form */
+}
+
+#contact-form .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px; /* Add more margin at the bottom for spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Adjust the width and styling as needed */
+
+.whats-trending {
+	 margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff; /* Light blue background color */
+    padding: 10px;
+    color: #007bff; /* Blue text color */
+    text-align: center; /* Center the text */
+}
+
+.oval {
+   
+    width: auto;
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue oval color */
+    border-radius: 20px;
+    margin: 0 5px;
+    color: white; 
+font-size: 12px;/* Text color inside ovals */
+}
