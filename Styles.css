@@ -5,8 +5,6 @@ overflow-x: hidden;
 font-family: 'Arial', sans-serif;
 }
 
-
-
  .number-box {
             background-color: blue;
             color: white;
@@ -139,7 +137,7 @@ h6 {
 /* CSS for the search bar */
 .search-bar {
     font-size: 15px; /* Increase the font size of the search input */
-    padding: 10px; /* Increase padding for better visibility */
+    padding: 20px; /* Increase padding for better visibility */
     width: 300px; /* Adjust the width as needed */
     border-radius: 20px;
     border: 2px solid #ccc;
@@ -206,19 +204,10 @@ tr:nth-child(even) {
     color: blue;
 }
 
-/* Style for the third column elements in the second table */
-.container:last-child table tbody td:nth-child(3) {
-    padding: 5px 8px;
-    background-color: lightgreen;
-    color: green;
-    text-align: center;
-margin-right: 10px;
-}
-
 .main-container1 {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center; /* Align items vertically in the center */
     max-width: 100%;
     margin: 20px auto;
     padding: 20px;
@@ -226,14 +215,19 @@ margin-right: 10px;
 }
 
 .container1 {
-    flex: 1;
+    flex: 1; /* Distribute available space evenly among containers */
     text-align: center;
-    margin: 0 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: calc(25% - 20px); /* Limit the width of each container */
+    padding: 10px; /* Add padding to the containers */
+}
+
+.container1 img {
+    max-width: 100%; /* Ensure images don't overflow the container */
 }
 
 .access-button {
+    width: 100px;
     background-color: #0056b3;
     color: white;
     border: none;
@@ -291,9 +285,15 @@ transform: translateZ(5px);
 
 /* CSS for the specific form with the #contact-form id */
 #contact-form {
-    text-align: right; /* Align the form to the right */
+    text-align: left; /* Align the form to the left */
     margin-top: 20px; /* Add margin at the top */
-    /* Add any other styles specific to this form */
+    padding: 20px; /* Add padding to the form for spacing */
+    border: 1px solid #ccc; /* Add a border to the form */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+}
+
+#contact-form h2 {
+    margin-bottom: 10px; /* Add margin below the heading for spacing */
 }
 
 #contact-form .form-row {
@@ -327,6 +327,14 @@ transform: translateZ(5px);
     padding: 10px 20px;
     cursor: pointer;
 }
+
+/* Optional: Style for the footer containing the contact form */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
 
 /* Adjust the width and styling as needed */
 
